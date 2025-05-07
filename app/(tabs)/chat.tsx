@@ -6,7 +6,7 @@ import { ChatList } from '@/components/chat/ChatList';
 import { ChatInput } from '@/components/chat/ChatInput';
 import { colors } from '@/constants/colors';
 import { spacing, fontSizes } from '@/constants/theme';
-import { sendMessageToAI } from '@/utils/aiHelpers';
+import { sendMessageToAI } from '../../utils/aiHelper';
 import { Trash2, RotateCcw, Info, X } from 'lucide-react-native';
 import { Stack } from 'expo-router';
 
